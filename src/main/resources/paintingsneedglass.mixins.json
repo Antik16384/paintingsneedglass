@@ -1,14 +1,13 @@
 {
 	"required": true,
+	"minVersion": "0.8",
 	"package": "net.antik16384.paintingsneedglass.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
+	"mixins": [],
+	"client": [
+		"client.PaintingEntityRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
 	}
 }
