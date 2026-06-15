@@ -1,9 +1,13 @@
-# Paintings Need Glass
+# Paintings Need Glass (PNG)
 
-## Setup
+## Content
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+Paintings Need Glass (*PNG*) is a client-side mod for Minecraft which adds support for transparent painting textures.
 
-## License
+These textures can be used through resource packs.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+The game currently uses the back.png texture for the sides of paintings as well. This mod does not automatically remove those side textures.
+
+## Dependencies
+
+Requires Fabric API 0.18.4 or later.
