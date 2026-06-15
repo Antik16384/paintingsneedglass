@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "paintingsneedglass",
+	"version": "${version}",
+	"name": "Paintings Need Glass",
+	"description": "You noticed your custom paintings don't support transparency? Good news!",
+	"authors": [
+		"Antik16384"
+	],
+	"contact": {
+		"sources": "https://github.com/Antik16384/paintingsneedglass"
+	},
+	"license": "MIT",
+	"icon": "assets/paintingsneedglass/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.antik16384.paintingsneedglass.PaintingsNeedGlass"
+		],
+		"fabric-datagen": [
+			"net.antik16384.paintingsneedglass.PaintingsNeedGlassDataGenerator"
+		],
+		"client": [
+			"net.antik16384.paintingsneedglass.PaintingsNeedGlassClient"
+		]
+	},
+	"mixins": [
+		"paintingsneedglass.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
