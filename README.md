@@ -6,8 +6,12 @@ Paintings Need Glass (*PNG*) is a client-side mod for Minecraft which adds suppo
 
 These textures can be used through resource packs.
 
-The game currently uses the back.png texture for the sides of paintings as well. This mod does not automatically remove those side textures.
+## Usage
+
+You can toggle the whole mod with `/paintingsneedglass toggle`.
+
+To toggle invisible side textures, use `/paintingsneedglass togglesides`.
 
 ## Dependencies
 
-Requires Fabric API 0.18.4 or later.
+Requires Fabric API.
